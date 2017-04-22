@@ -3,8 +3,9 @@
 
 %token NUM
 %token sqroot
-%left '-''+''^'
-%right '*''/'
+%left '-''+'
+%left '*''/'
+%left '^'
 %%
 start: exp {printf("%d\n",$$);}
 exp:exp'+'exp {$$=$1+$3;}
