@@ -1,0 +1,7 @@
+#include<stdio.h>//Header file
+int main()//Start of execution
+{
+	int a;//Declaration
+	scanf("%d",a);//Input
+	printf("Hello CBIT");//Output
+}
